@@ -8,15 +8,15 @@ const MESSAGE = process.env.MESSAGE || `
 *SESSION GENERATED SUCCESSFULY* ✅
 
 *Gɪᴠᴇ ᴀ ꜱᴛᴀʀ ᴛᴏ ʀᴇᴘᴏ ꜰᴏʀ ᴄᴏᴜʀᴀɢᴇ* 🌟
-https://github.com/GuhailTechInfo/ULTRA-MD
+https://github.com/Nyanuga/Prince-junior-v2
 
 *Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ ꜰᴏʀ ϙᴜᴇʀʏ* 💭
-https://t.me/GlobalBotInc
-https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07
+https://chat.whatsapp.com/LLx80jCw3fsDm94T3hePE7
+https://whatsapp.com/channel/0029Vb5U5AI3wtb8r6Gbex2p
 
 
 *Yᴏᴜ-ᴛᴜʙᴇ ᴛᴜᴛᴏʀɪᴀʟꜱ* 🪄 
-https://youtube.com/GlobalTechInfo
+https://youtube.com/Glob
 
 *ULTRA-MD--WHATTSAPP-BOT* 🥀
 `;
@@ -39,7 +39,7 @@ if (fs.existsSync('./auth_info_baileys')) {
 router.get('/', async (req, res) => {
     let num = req.query.number;
 
-    async function SUHAIL() {
+    async function PRINCE_JUNIOR_V2() {
         const { state, saveCreds } = await useMultiFileAuthState(`./auth_info_baileys`);
         try {
             let Smd = makeWASocket({
@@ -136,7 +136,7 @@ router.get('/', async (req, res) => {
         }
     }
 
-    await SUHAIL();
+    await PRINCE();
 });
 
 module.exports = router;
